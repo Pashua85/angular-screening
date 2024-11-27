@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 2px solid grey;
+  border-radius: 13px;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+
+
+.example {
+  &__wrapper {
+    border: 1px solid grey;
+    border-radius: 8px;
+    min-height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
